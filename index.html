@@ -8,23 +8,23 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-	<h1>Information Form</h1>
-	<form action="/submit" method="POST" autocomplete="on">
-		<div id="Email">
-			<label for="email">Email: </label>
-			<input type="email" id="email" name="email" required placeholder="username@domain.com">
-		</div>
-		<div id="Phone">
-			<label for="phone">Phone Number: </label>
-			<input type="tel" id="phone" name="phone" required placeholder="123-456-7890">
-		</div>
-		<div id="DOB">
-			<label for="dob">Date of Birth: </label>
-			<input type="date" id="dob" name="dob" required placeholder="mm-dd-yyyy">
-		</div>
-		<div id="Submit">
-			<button type="submit">Submit </button>
-		</div>
-	</form>
+  <div class="container">
+    <form action="/submit" method="POST" autocomplete="on" action="#null">
+    <h1>Information Form</h1>
+      <div id="Email">
+        <label for="email">Email: </label>
+        <input type="email" id="email" class="form-control" required placeholder="username@domain.com">
+      </div>
+      <div id="Phone">
+        <label for="phone">Phone Number: </label>
+        <input type="tel" id="phone" class="form-control" required placeholder="123-456-7890">
+      </div>
+      <div id="DOB">
+        <label for="dob">Date of Birth: </label>
+        <input type="date" id="dob" class="form-control" required placeholder="mm-dd-yyyy">
+      </div>
+      <button type="submit">Submit </button>
+    </form>
+  </div>
 </body>
 </html>
